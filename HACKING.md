@@ -1,3 +1,7 @@
+## Forked from ninja-build
+Changed CanonicalizePath(..) in util.cc to allow depths of max 62 (was 30) using uint64_t.
+
+
 ## Basic overview
 
 `./configure.py` generates the `build.ninja` files used to build
